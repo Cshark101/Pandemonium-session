@@ -2,7 +2,7 @@
     "name": "Pandemonium Session Generator",
     "description": "Get your session Id and leave human",
     "logo": "https://files.catbox.moe/h4kibz.jpg",
-    "repository": "https://github.com/Cshark/Pandemonium-session",
+    "repository": "https://github.com/Cshark101/Pandemonium-session",
     "keywords": ["@Xcelsama"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
