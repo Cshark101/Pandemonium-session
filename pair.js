@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                     await MalvinTechInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await MalvinTechInc.sendMessage(userJid, { text: `Hey there, PANDEMONIUM-MD User!* 👋🏻
+                    await MalvinTechInc.sendMessage(userJid, { text: `Hey there, MALVIN-XD User!* 👋🏻
 
 Thanks for using *PANDEMONIUM-MD* — your session has been successfully created!
 
@@ -86,10 +86,12 @@ Thanks for using *PANDEMONIUM-MD* — your session has been successfully created
 ——————
 
 *✅ Stay Updated:*  
+Join our official WhatsApp Channel:  
+https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Cshark/Pandemonium-MD
+https://github.com/XdKing2/MALVIN-XD
 
 ——————
 
