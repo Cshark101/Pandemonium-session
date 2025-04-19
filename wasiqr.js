@@ -1,5 +1,5 @@
 const PastebinAPI = require('pastebin-js'),
-pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
+pastebin = new PastebinAPI('0029VahusSh0QeaoFzHJCk2x')
 const {makeid} = require('./id');
 const QRCode = require('qrcode');
 const express = require('express');
@@ -58,22 +58,19 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
-               let GIFTED_MD_TEXT = `
-*_Pair Code Connected by Pandemonium*
+				   let WASI_MD_TEXT = `
+*_Session Connected By PANDEMONIUM*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN Pandemonium-MD 』*
+║ *『 Welcome To Pandemonium-MD. Let's Begin. 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Owner:* _https://wa.me/2348101668050_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
+║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║❒ *Owner:* https://wa.me/2348101668050_
 ╚════════════════════════╝
 _____________________________________
-
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
